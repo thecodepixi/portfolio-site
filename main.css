@@ -15,48 +15,61 @@ html, body {
 }
 
 h1, h3, h5 {
+  margin: 0;
+  padding: 1rem;
   font-family: 'Playfair Display', serif;
+  font-weight: 400;
 }
 
 #nav {
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
   width: 100%;
-  height: 10vh;
+  height: 8vh;
   background: turquoise;
   padding: 0;
   margin: 0; 
-  display: flexbox;
 }
 
 #nav-links {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
- align-items: center;
+  align-items: center;
 }
 
-#about .heading {
-  font-size: 3.5em;
+a {
+  text-decoration: none;
+  color: ghostwhite;
+  text-shadow: 1px 1px 1px lightslategrey;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero .heading {
+  font-size: 6em;
   color: white;
   text-shadow: 1px 3px 3px grey;
 }
 
-#about .sub-heading{
-  font-size: 2.5em;
-  color: white;
-}
-#about .content{
-
-  font-family: 'Arimo', sans-serif;
-  margin: 5px;
-  padding: 2px;
-  font-size: 2em;
+#hero .sub-heading{
+  font-size: 4em;
   color: white;
 }
 
-#about {
+#hero {
   height: 100vh;
   background-color: slategrey;
+  text-align: center;
 }
 
 .list {
