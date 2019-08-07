@@ -1,6 +1,6 @@
 /* 
-CONTENT FONT: font-family: 'Playfair Display', serif;
-HEADINGS FONT: font-family: 'Arimo', sans-serif;
+HEADINGS FONT: font-family: 'Playfair Display', serif;
+CONTENT FONT: font-family: 'Arimo', sans-serif;
 Main Colors: slategray, lightslategray;
 Accent Colors: turquoise, mediumturquoise, ghostwhite;
 */
@@ -14,9 +14,25 @@ html, body {
   font-size: 10px;
 }
 
+h1, h3, h5 {
+  font-family: 'Playfair Display', serif;
+}
+
+.heading {
+  font-size: 3.5em;
+}
+
+.sub-heading{
+  font-size: 2.5em;
+}
 .content{
+  font-family: 'Arimo', sans-serif;
   margin: 5px;
   padding: 2px;
   font-size: 2em;
 }
 
+.list {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+}
